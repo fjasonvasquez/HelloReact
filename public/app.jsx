@@ -1,8 +1,8 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Greeter = require('./components/Greeter');
+var Greeter = require('Greeter');
 
-var firstName = 'Jason'
+var firstName = 'Jacob'
 
 ReactDOM.render(
   <Greeter name={firstName}/>,
