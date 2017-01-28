@@ -6,7 +6,7 @@ var Greeter = React.createClass({
   getDefaultProps: function () {
     return {
       name: 'React',
-      message: 'This is the default message!'
+      message: 'This is standard message!'
     };
   },
   getInitialState: function () {
